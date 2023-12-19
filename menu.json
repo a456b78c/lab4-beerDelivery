@@ -1,0 +1,42 @@
+{
+    "menu": {
+      "beers": ["dark", "blanc", "alesgood", "lager"],
+      "squids": ["white", "red"],
+      "nuts": ["cheese", "bbq", "wasabi"],
+      "snack": ["onion", "crab", "mushrooms"]
+    },
+    "prices": [
+      {
+        "item": "beers",
+        "options": [
+          {"name": "dark", "price": 50, "amount": 1},
+          {"name": "blanc", "price": 50, "amount": 1},
+          {"name": "alesgood", "price": 50, "amount": 1},
+          {"name": "lager", "price": 50, "amount": 1}
+        ]
+      },
+      {
+        "item": "nuts",
+        "options": [
+          {"name": "cheese", "price": 35, "amount": 0.1},
+          {"name": "bbq", "price": 35, "amount": 0.1},
+          {"name": "wasabi", "price": 35, "amount": 0.1}
+        ]
+      },
+      {
+        "item": "squid",
+        "options": [
+          {"name": "white", "price": 90, "amount": 0.1},
+          {"name": "red", "price": 90, "amount": 0.1}
+        ]
+      },
+      {
+        "item": "snack",
+        "options": [
+          {"name": "onion", "price": 40, "amount": 0.1},
+          {"name": "crab", "price": 40, "amount": 0.1},
+          {"name": "mushrooms", "price": 40, "amount": 0.1}
+        ]
+      }
+    ]
+  }
